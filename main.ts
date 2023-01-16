@@ -9,4 +9,7 @@ jugador = game.createSprite(2, 4)
 basic.forever(function () {
     basic.pause(randint(1000, 1500))
     jugador = game.createSprite(randint(0, 4), 0)
+    for (let index = 0; index < 4; index++) {
+    	
+    }
 })
